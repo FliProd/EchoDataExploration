@@ -2,7 +2,7 @@
 This repository contains code which analyses Echo report Data as well as Clinical Variables. 
 
 
-## Data
+## Data
 The echocardiography report dataset and the clinical variable datasets can be found on Leomed as .csv.
 - Echocardiography reports: cluster/work/shfn/data/unified/NORMAL/preprocessed_normal_cohort_echo_reports.csv
 - Clinical Variables: /cluster/work/shfn/data/unified/NORMAL/clinical_var/all_clinical_vars_normal_cohort_LR.csv
