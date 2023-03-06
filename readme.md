@@ -1,10 +1,12 @@
 # Echo Report and Clinical Variable Analysis
 This repository contains code which analyses Echo report Data as well as Clinical Variables. 
 
+
 ## Data
 The echocardiography report dataset and the clinical variable datasets can be found on Leomed as .csv.
 - Echocardiography reports: cluster/work/shfn/data/unified/NORMAL/preprocessed_normal_cohort_echo_reports.csv
 - Clinical Variables: /cluster/work/shfn/data/unified/NORMAL/clinical_var/all_clinical_vars_normal_cohort_LR.csv
+
 
 ## Preprocessing
 The folder Analysis/preprocessing contains a notebook to process the unprocessed echocardiography reports .csv file from above. All other notebooks assume the content to be in this format. The clinical variables .csv does not have to be preprocessed in any way.
@@ -13,11 +15,14 @@ The folder Analysis/preprocessing contains a notebook to process the unprocessed
 ## Interactive
 The folder Interactive contains a streamlit web application for exploring correlation between echocardiography variables as well as clinical variables. Note that there are some performance issues and a simple hack is to just comment out sections currently not needed in Interactive/main.py.
 
+
 ## Analysis
 Contains 5 foldes (apart from preprocessing) each handling one analysis.
 
+
 ### Correlation
 The folder contains a notebook to generate the different correlation analyses as well as some precomputed correlation tables as csv.
+
 
 ### Prediction
 The folder prediction_experiment contains a notebook to generate the different predictions. There are also a lot of .csv encoded with information in the variable name:
@@ -38,12 +43,14 @@ The folder clustering_experiment contains multiple clustering experiments.
 - clustering_naive: contains code that naively tries to find good subspaces by just randomly trying or with a greedy strategy
 - dimension_reduced_clustering contains code that sequentially performs dimension reduction and clustering
 
-### Clinical Variables
+
+### Clinical Variables
 Contains two notebooks:
 - all_clin_vars_analysis.ipynb: contains code that joins the echo report and clinical variable dataset as well as a correlation analysis of the clinical variables
 - all_clin_vars_initial_analysis.ipynb: contains code that investigates the relation between clinical variables and echo report patients
 
-### Validating Ranges
+
+### Validating Ranges
 Contains a notebook that can be used to validate the ranges in the echo report against an external source.
 
 
