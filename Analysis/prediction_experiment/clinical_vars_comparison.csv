@@ -1,0 +1,32 @@
+,mse/accuracy_poly_LR,mseToStdRatio/balancedAccuracy_poly_LR,column,mse/accuracy_LR,mseToStdRatio/balancedAccuracy_LR,column,mse/accuracy_poly_RF,mseToStdRatio/balancedAccuracy_poly_RF,column,mse/accuracy_RF,mseToStdRatio/balancedAccuracy_RF,column
+0,0.6245,0.7975,HbA1c n.NGSP,0.6224,0.7948,HbA1c n.NGSP,0.6458,0.8247,HbA1c n.NGSP,0.6394,0.8166,HbA1c n.NGSP
+1,0.1598,0.3427,Kalium,0.1599,0.3428,Kalium,0.1592,0.3415,Kalium,0.1604,0.3439,Kalium
+2,9.4674,2.914,Natrium,9.4757,2.9166,Natrium,9.4343,2.9039,Natrium,9.4649,2.9133,Natrium
+3,794.4296,28.1466,eGFR (Krea) CKD-EPI,791.9399,28.0583,eGFR (Krea) CKD-EPI,790.0545,27.9916,eGFR (Krea) CKD-EPI,793.9375,28.1291,eGFR (Krea) CKD-EPI
+4,5070.1916,71.4254,Kreatinin,5061.7893,71.307,Kreatinin,5078.9492,71.5487,Kreatinin,5079.2781,71.5534,Kreatinin
+5,11195495.1079,3494.964,NT-proBNP,11193263.4103,3494.2673,NT-proBNP,11193848.8767,3494.4501,NT-proBNP,11193804.8064,3494.4363,NT-proBNP
+6,54.6667,14.3171,"TSH, basal",54.6694,14.3179,"TSH, basal",54.6941,14.3243,"TSH, basal",54.7147,14.3297,"TSH, basal"
+7,360.4663,16.7181,Gewicht,360.2092,16.7062,Gewicht,362.6933,16.8214,Gewicht,364.3593,16.8986,Gewicht
+8,134.0326,10.6604,Grösse,134.0557,10.6622,Grösse,134.9156,10.7306,Grösse,134.6263,10.7076,Grösse
+9,9.6397,1.875,Lymphozyten,9.6401,1.875,Lymphozyten,9.6668,1.8802,Lymphozyten,9.7501,1.8964,Lymphozyten
+10,15462.829,123.057,Thrombozyten,15381.1262,122.4068,Thrombozyten,15359.4856,122.2346,Thrombozyten,15397.948,122.5407,Thrombozyten
+11,172.285,12.752,Leukocytes,172.2564,12.7499,Leukocytes,173.2823,12.8258,Leukocytes,173.4595,12.8389,Leukocytes
+12,735.5618,26.1383,Hemoglobin,736.5029,26.1717,Hemoglobin,735.2307,26.1265,Hemoglobin,735.3235,26.1298,Hemoglobin
+13,19.7875,5.5413,Monozyten,19.7929,5.5429,Monozyten,19.7779,5.5386,Monozyten,19.7778,5.5386,Monozyten
+14,4757.628,66.5936,hsCRP,4755.2013,66.5596,hsCRP,4761.987,66.6546,hsCRP,4762.6117,66.6633,hsCRP
+15,26.283,4.9083,Neutrophile,26.2713,4.9061,Neutrophile,26.3071,4.9128,Neutrophile,26.3183,4.9148,Neutrophile
+16,18625722.4826,3692.5877,CK,17682279.7105,3505.5482,CK,17565770.4137,3482.45,CK,17540419.5927,3477.4241,CK
+17,19993.5114,175.8344,Harnsäure,18902.5547,166.2399,Harnsäure,15992.2324,140.6449,Harnsäure,15857.3261,139.4584,Harnsäure
+18,10885.3508,94.2024,Alk. Phosphatase,10878.4929,94.1431,Alk. Phosphatase,10880.5265,94.1607,Alk. Phosphatase,10879.4052,94.151,Alk. Phosphatase
+19,13194118.1706,2352.7422,Ferritin,13117988.663,2339.167,Ferritin,13123724.3153,2340.1898,Ferritin,13123184.1863,2340.0935,Ferritin
+20,2188483.5646,1476.8305,AST (GOT)Aspartat-Aminotransferase,1800310.3321,1214.8838,AST (GOT)Aspartat-Aminotransferase,1978922.9008,1335.4149,AST (GOT)Aspartat-Aminotransferase,1870533.8583,1262.272,AST (GOT)Aspartat-Aminotransferase
+21,700202.4352,636.7204,Troponin,700187.2582,636.7066,Troponin,700069.3677,636.5994,Troponin,699960.4706,636.5004,Troponin
+22,863916.1958,802.06,ALT (GPT)Alanin-Aminotransferase,822260.8869,763.3872,ALT (GPT)Alanin-Aminotransferase,839994.7672,779.8514,ALT (GPT)Alanin-Aminotransferase,826646.7452,767.4591,ALT (GPT)Alanin-Aminotransferase
+23,64.6083,7.8562,Albumin,64.7524,7.8737,Albumin,64.5494,7.849,Albumin,64.5024,7.8433,Albumin
+24,27.4662,5.6868,Harnstoff,27.4441,5.6823,Harnstoff,27.3495,5.6627,Harnstoff,27.2433,5.6407,Harnstoff
+25,6696.4697,83.8233,"Bilirubin, total",6695.1195,83.8064,"Bilirubin, total",6692.4441,83.7729,"Bilirubin, total",6690.5476,83.7492,"Bilirubin, total"
+26,468.8221,22.1637,Transferrin Saturation,423.1631,20.0052,Transferrin Saturation,432.1569,20.4304,Transferrin Saturation,433.6786,20.5023,Transferrin Saturation
+27,45.4023,6.1256,Transferrin,45.1059,6.0856,Transferrin,45.3473,6.1182,Transferrin,44.9185,6.0603,Transferrin
+28,9.4158,2.5464,D-Dimers,9.3983,2.5416,D-Dimers,9.6125,2.5996,D-Dimers,9.5106,2.572,D-Dimers
+29,6.8344,2.0946,Bicarbonat,6.8268,2.0923,Bicarbonat,6.8558,2.1012,Bicarbonat,6.8558,2.1012,Bicarbonat
+30,388.844,15.2102,Laktat,374.7247,14.6579,Laktat,455.3395,17.8113,Laktat,457.2652,17.8866,Laktat

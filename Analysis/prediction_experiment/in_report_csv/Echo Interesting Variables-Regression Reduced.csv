@@ -1,0 +1,12 @@
+Variable,MSE/STD,Important features
+Groesse_Echokardiographie,2.09,"[{0.42, Gewicht_Echokardiographie}, {0.35, BMI}, {EDV, 0.2}]"
+Gewicht_Echokardiographie,0.55,"[{0.21, Groesse_Echokardiographie}, {0.78, BMI}]"
+BMI,0.08,"[{0.36, Groesse_Echokardiographie}, {0.63, Gewicht_Echokardiographie}]"
+ESV,0.04,"[{EDV, 0.83}, {EF, 0.16}]"
+EF,0.75,"[{ESV, 0.5}, {EDV, 0.27}, {0.07, LV_Fuellung}]"
+Septum,0.39,"[{0.07, Gewicht_Echokardiographie}, {0.47, Hinterwand}, {0.09, EDD}, {0.14, LVMMI}]"
+Hinterwand,0.21,"[{0.42, Septum}, {0.05, EDD}, {0.15, LVMMI}, {0.23, rTh}]"
+EDD,0.66,"[{0.06, Gewicht_Echokardiographie}, {EDV, 0.27}, {0.28, LVMMI}, {0.19, rTh}]"
+LVMMI,0.50,"[{0.21, Groesse_Echokardiographie Septum}, {0.23, Groesse_Echokardiographie Hinterwand}, {0.07, VenaCavaInferior EDV}, {0.05, EDV Septum}, {0.14, EDD^2}, {0.11, EDD rTh}]"
+rTh,0.53,"[{0.09, VenaCavaInferior}, {0.47, Hinterwand}, {0.28, EDD}, {0.13, LV_Fuellung}]"
+LV_Fuellung,0.00,"[{EF, 0.57}, {0.43, rTh}]"

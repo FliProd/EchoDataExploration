@@ -1,0 +1,27 @@
+"Variable in TTE dataset
+",Description
+"Pat_ResearchID, Fall_ResearchID","Anonymous Patient Identification. Used to join with the clinical measurements.
+"
+"echokardiographie_dttm, Datum Echokardiographie, Uhrzeit Echokardiographie
+","Date and time of the report. Used to only join with clinical measurements in a certain timeframe.
+"
+"Groesse_Echokardiographie, Gewicht_Echokardiographie, BMI
+","Height, weight and BMI."
+Echoqualitaet,"Describes the quality of the echo report based on the clarity
+of the image in good and sufficient.
+"
+"Mitralklappe, Aortenklappe, Trikuspidalklappe, Pulmonalklappe
+","Qualitative description of the mitral, aortic, tricuspid and pulmonary valve as normal or not normal."
+Aorta,"Qualitative description of the aorta as normal, not normal or replaced."
+VenaCavaInferior,Qualitative description of the inferior vena cava as normal or not normal.
+"RechterVorhof, RechterVentrikel, LinkerVorhof, LinkerVentrikel
+",Qualitative description of the right and left ventricles and atrium as normal or not normal.
+"Septum, Hinterwand",Thickness of the septum and posterior wall.
+"ESV, EDV, ESD M Mode, EDD","ESV, EDV, ESD M Mode, EDD End systolic/diastolic volume and diameter of the left ventricle."
+LV Fuellung,"Left ventricle filling. Is always equal to rTh and EF if present, if not present the rTh and EF aren’t equal."
+EF,"Ejection fraction of the heart, describes the amount of blood pumped out of the heart each heartbeat. Described as percentage of the total end diastolic volume."
+rTh,Relative wall thickness. Calculated as $\frac{2Hinterwand}{EDD}$ it is a measure of LV geometry and may be a marker for adverse events in patients with LV dysfunction.
+LVMMI,LVMMI Left-Ventricular Myocardial Mass Index. Calculated  $\frac{0.8(1.04(EDD + Septum + Hinterwand)^3 - EDD^3) + 0.6}{Body Surface Area}$
+HeartFrequency,Heart rate.
+"BloodPressure Systole, BloodPressure Diastole
+",Blood pressure in the systole and diastole.

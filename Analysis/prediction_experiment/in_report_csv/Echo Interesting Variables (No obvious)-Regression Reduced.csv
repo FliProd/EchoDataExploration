@@ -1,0 +1,4 @@
+Variable,MSE/STD,Important features
+Septum,1.04,"[{0.16, 'Gewicht_Echokardiographie ESD_M_Mode'}]"
+Hinterwand,0.92,"[{0.41, 'Groesse_Echokardiographie VenaCavaInferior'}, {'Groesse_Echokardiographie ESD_M_Mode', 0.19}, {0.09, 'Groesse_Echokardiographie EDD'}, {0.09, 'Gewicht_Echokardiographie EF'}]"
+LV_Fuellung,0.15,"[{0.33, 'Groesse_Echokardiographie ESV'}, {0.13, 'Groesse_Echokardiographie EDV'}, {0.11, 'ESV^2'}, {0.21, 'ESV EDV'}, {'ESV BloodPressure_Systole', 0.07}, {0.1, 'EDV^2'}]"

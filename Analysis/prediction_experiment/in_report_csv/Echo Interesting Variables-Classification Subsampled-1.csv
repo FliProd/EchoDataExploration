@@ -1,0 +1,10 @@
+Variable,Test Value Counts,Train Value Counts,Original Value Counts,Accuracy,Balanced Accuracy,Important features
+LinkerVentrikel,"[(nicht normal 8), normal 8)]","[(nicht normal 31), normal 31)]","[(nicht normal 39), normal 4089)]",0.81,0.81,"[[{0.06, Groesse_Echokardiographie VenaCavaInferior}, {Groesse_Echokardiographie RegionaleWandbewegungen, 0.11}, {0.07, Gewicht_Echokardiographie EF}, {0.06, EDV HeartFrequency}, {0.05, HeartFrequency BloodPressure_Systole}]"
+LinkerVorhof,"[(nicht normal 11), normal 11)]","[(nicht normal 45), normal 45)]","[(nicht normal 56), normal 4073)]",0.77,0.77,"[{0.07, Groesse_Echokardiographie RechterVorhof}, {0.1, Groesse_Echokardiographie Ebene}, {0.05, Gewicht_Echokardiographie HeartFrequency}]"
+RechterVentrikel,"[(nicht normal 1), normal 1)]","[(nicht normal 6), normal 30)]","[(nicht normal 7), normal 4119)]",0.50,0.50,"[{0.1, Gewicht_Echokardiographie}, {0.1, BMI}, {0.05, VenaCavaInferior}, {0.22, LV_Fuellung}, {0.11, BloodPressure_Diastole}]"
+RechterVorhof,"[(nicht normal 3), normal 3)]","[(nicht normal 13), normal 30)]","[(nicht normal 16), normal 4112)]",1.00,1.00,[]
+Mitralklappe,"[(nicht normal 40), normal 40)]","[(nicht normal 162), normal 162)]","[(nicht normal 202), normal 3932)]",0.73,0.73,[]
+Aortenklappe,"[(nicht normal 25), normal 25)]","[(nicht normal 102), normal 102)]","[(nicht normal 127), normal 4004)]",0.78,0.78,"[{0.06, VenaCavaInferior HeartFrequency}, {0.06, VenaCavaInferior BloodPressure_Systole}, {0.05, ESD_M_Mode LV_Fuellung}]"
+Trikuspidalklappe,"[(nicht normal 1), normal 1)]","[(nicht normal 5), normal 30)]","[(nicht normal 6), normal 4127)]",0.50,0.50,[]
+VenaCavaInferior,"[(nicht normal 8), normal 8)]","[(nicht normal 30), normal 30)]","[(nicht normal 38), normal 1090)]",0.69,0.69,[]
+Aorta,"[normal 33), (2, 33)]","[(nicht normal 1), normal 30), (2, 30)]","[(nicht normal 1), normal 167), (2, 3723)]",0.62,0.62,[]

@@ -1,0 +1,7 @@
+Cluster,Discriminatory Dimensions
+1,"LinkerVentrikel, Ebene, Echoqualitaet, Aortenklappe, Aorta, RechterVorhof, Pulmonalklappe, VenaCavaInferior, RegionaleWandbewegungen, RechterVentrikel, Mitralklappe, LinkerVorhof, Trikuspidalklappe, Hinterwand, LV_Fuellung, Septum"
+2,"LinkerVentrikel, RegionaleWandbewegungen, Pulmonalklappe, Trikuspidalklappe, Echoqualitaet, Mitralklappe, Aortenklappe, Aorta, LinkerVorhof, Ebene, VenaCavaInferior, RechterVorhof, RechterVentrikel, Hinterwand, Septum, LV_Fuellung"
+3,"LinkerVentrikel, Ebene, RechterVentrikel, RegionaleWandbewegungen, VenaCavaInferior, Pulmonalklappe, RechterVorhof, Aorta, Aortenklappe, Mitralklappe, Echoqualitaet, Trikuspidalklappe, LinkerVorhof, Septum, Hinterwand, LV_Fuellung"
+4,"LinkerVentrikel, RegionaleWandbewegungen, Pulmonalklappe, RechterVentrikel, RechterVorhof, LinkerVorhof, Aorta, Aortenklappe, Mitralklappe, VenaCavaInferior, Ebene, Trikuspidalklappe, Echoqualitaet, Hinterwand, Septum, LV_Fuellung"
+5,"LinkerVentrikel, Septum, RegionaleWandbewegungen, Aorta, Aortenklappe, Mitralklappe, VenaCavaInferior, RechterVorhof, LinkerVorhof, Ebene, RechterVentrikel, Pulmonalklappe, Echoqualitaet, Trikuspidalklappe, Hinterwand, LV_Fuellung"
+5,"LinkerVentrikel, RegionaleWandbewegungen, Mitralklappe, Aortenklappe, Aorta, RechterVorhof, Ebene, RechterVentrikel, Pulmonalklappe, Echoqualitaet, VenaCavaInferior, Trikuspidalklappe, LinkerVorhof, Septum, Hinterwand, LV_Fuellung"

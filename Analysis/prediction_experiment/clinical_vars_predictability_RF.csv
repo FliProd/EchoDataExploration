@@ -1,0 +1,405 @@
+,column,column_std,mse,mse_avg_ratio,mse_std_ratio,test_value_counts,train_value_counts,original_value_counts,accuracy,balanced_accuracy,upsampling_factors,feature_importances,feature_names,important_features
+0,HbA1c n.NGSP,0.7831,0.6394,0.1153,0.8166,,,,,,,"[2.33927620e-02 7.78585248e-02 1.32510560e-01 7.16977235e-03
+ 4.63989712e-03 6.85460375e-04 7.81327899e-03 2.20892196e-06
+ 1.70684304e-05 3.12759856e-03 2.46093865e-06 1.14248003e-05
+ 2.54341983e-06 9.09576507e-02 2.78760512e-04 5.17059635e-02
+ 8.08811910e-02 3.86904152e-02 2.95232223e-03 8.02598880e-03
+ 5.87458109e-02 8.98777141e-03 5.24133391e-02 9.63986134e-02
+ 8.69948367e-02 3.08307183e-02 4.62203678e-02 4.58823858e-02
+ 4.28003043e-02]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.08, 'Gewicht_Echokardiographie'}, {0.13, 'BMI'}, {0.09, 'ESD_M_Mode'}, {'ESV', 0.05}, {'EDV', 0.08}, {0.06, 'Septum'}, {0.05, 'EDD'}, {0.1, 'LVMMI'}, {0.09, 'rTh'}]"
+1,Kalium,0.4664,0.1604,0.0409,0.3439,,,,,,,"[6.85548105e-02 6.33039931e-02 8.90542493e-02 1.32102903e-02
+ 1.18446894e-02 2.35821800e-03 7.77246802e-03 7.24421073e-06
+ 4.41189990e-05 4.63815592e-03 2.60093169e-05 4.47108293e-06
+ 3.55173328e-04 6.20162560e-02 6.51125786e-04 4.41027802e-02
+ 6.29905398e-02 5.24307488e-02 6.56255507e-03 7.55237347e-03
+ 3.41364304e-02 1.56964117e-02 5.96288020e-02 6.83669039e-02
+ 6.65429451e-02 1.47170652e-02 9.43354157e-02 8.32684108e-02
+ 6.58273446e-02]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.07, 'Groesse_Echokardiographie'}, {0.06, 'Gewicht_Echokardiographie'}, {0.09, 'BMI'}, {0.06, 'ESD_M_Mode'}, {'EDV', 0.06}, {'EF', 0.05}, {0.06, 'EDD'}, {0.07, 'LVMMI'}, {0.07, 'rTh'}, {0.09, 'HeartFrequency'}, {0.08, 'BloodPressure_Systole'}, {0.07, 'BloodPressure_Diastole'}]"
+2,Natrium,3.2489,9.4649,0.0681,2.9133,,,,,,,"[9.31590563e-02 5.81084426e-02 1.02119382e-01 1.84411770e-02
+ 5.56904957e-03 2.68713213e-03 8.03613604e-03 5.47480338e-06
+ 1.53485025e-04 8.53888648e-03 9.11394118e-06 8.55009175e-06
+ 3.40573973e-04 4.11820684e-02 2.55945415e-03 5.20350028e-02
+ 9.20617477e-02 5.26507584e-02 9.98291339e-03 4.90829807e-03
+ 2.32250140e-02 2.69140603e-02 4.97495177e-02 6.45549328e-02
+ 5.32279338e-02 3.08748151e-02 6.43167438e-02 7.13488503e-02
+ 6.32314292e-02]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.09, 'Groesse_Echokardiographie'}, {0.06, 'Gewicht_Echokardiographie'}, {0.1, 'BMI'}, {'ESV', 0.05}, {'EDV', 0.09}, {'EF', 0.05}, {0.06, 'LVMMI'}, {0.05, 'rTh'}, {0.06, 'HeartFrequency'}, {0.07, 'BloodPressure_Systole'}, {0.06, 'BloodPressure_Diastole'}]"
+3,eGFR (Krea) CKD-EPI,28.2247,793.9375,8.5167,28.1291,,,,,,,"[5.56577201e-02 6.71212381e-02 9.30367419e-02 1.20407423e-02
+ 3.65254821e-03 8.74948837e-04 2.40709161e-03 9.19352281e-09
+ 2.24536672e-05 6.46449223e-03 2.57849397e-05 1.26979269e-06
+ 1.05688094e-04 4.93047359e-02 7.31546436e-03 4.30352674e-02
+ 6.05023003e-02 5.29494947e-02 6.75647115e-03 4.89815391e-03
+ 1.24950142e-01 1.11220642e-02 4.76006063e-02 6.50481777e-02
+ 6.88415239e-02 2.70504697e-02 6.08358111e-02 8.06370589e-02
+ 4.77415293e-02]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.06, 'Groesse_Echokardiographie'}, {0.07, 'Gewicht_Echokardiographie'}, {0.09, 'BMI'}, {'EDV', 0.06}, {'EF', 0.05}, {0.12, 'Septum'}, {0.07, 'LVMMI'}, {0.07, 'rTh'}, {0.06, 'HeartFrequency'}, {0.08, 'BloodPressure_Systole'}]"
+4,Kreatinin,70.9859,5079.2781,58.9574,71.5534,,,,,,,"[1.46843099e-01 1.33882397e-01 1.34036891e-01 8.10385247e-03
+ 2.92247111e-03 3.35917047e-04 3.95525011e-03 7.32243993e-06
+ 1.50615779e-05 4.74944648e-03 7.14826031e-05 1.72304841e-04
+ 1.21286811e-04 3.06440347e-02 5.07549267e-03 2.25653397e-02
+ 4.76637510e-02 3.89160172e-02 4.60187103e-03 2.61315391e-03
+ 4.53876949e-02 1.92294791e-02 2.28750822e-02 5.14807505e-02
+ 3.28385186e-02 7.81223636e-02 4.82751931e-02 8.19337741e-02
+ 3.25607017e-02]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.15, 'Groesse_Echokardiographie'}, {0.13, 'Gewicht_Echokardiographie'}, {0.13, 'BMI'}, {0.05, 'LVMMI'}, {0.08, 'LV_Fuellung'}, {0.08, 'BloodPressure_Systole'}]"
+5,NT-proBNP,3203.322,11193804.8064,16837.6063,3494.4363,,,,,,,"[4.45533094e-03 4.12671862e-03 2.54101856e-03 7.86868920e-02
+ 6.61600641e-02 5.43058756e-02 7.81893043e-05 1.11005534e-01
+ 1.87112935e-02 2.38429987e-04 1.11862168e-01 5.49276429e-02
+ 1.37878772e-01 2.08504029e-03 2.81382174e-01 2.69745370e-03
+ 1.47286873e-03 1.56505583e-02 4.07725157e-04 1.37585466e-03
+ 2.24326831e-03 8.68121023e-04 2.47694902e-03 1.60936075e-02
+ 3.18574626e-03 1.39134913e-02 3.34763039e-03 4.36027085e-03
+ 3.46131046e-03]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.08, 'Echoqualitaet'}, {0.07, 'Mitralklappe'}, {0.05, 'Aortenklappe'}, {0.11, 'Trikuspidalklappe'}, {0.11, 'RechterVorhof'}, {0.05, 'RechterVentrikel'}, {'LinkerVorhof', 0.14}, {0.28, 'LinkerVentrikel'}]"
+6,"TSH, basal",3.8183,54.7147,23.1064,14.3297,,,,,,,"[5.84248924e-02 6.73171238e-02 8.11905801e-02 1.70672318e-02
+ 5.47150508e-02 3.13268180e-02 1.12011479e-02 6.58937066e-06
+ 1.56548796e-04 4.01792682e-03 2.29100227e-03 1.61294014e-05
+ 3.11964750e-03 3.39177637e-02 2.20842986e-02 4.32638634e-02
+ 3.70231880e-02 3.75651903e-02 3.59165254e-03 3.88954741e-03
+ 2.09203743e-02 4.92062370e-02 4.14650243e-02 6.87671127e-02
+ 3.76939886e-02 1.68976275e-02 5.11901460e-02 1.19265962e-01
+ 8.24073350e-02]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.06, 'Groesse_Echokardiographie'}, {0.07, 'Gewicht_Echokardiographie'}, {0.08, 'BMI'}, {0.05, 'Mitralklappe'}, {0.07, 'LVMMI'}, {0.05, 'HeartFrequency'}, {0.12, 'BloodPressure_Systole'}, {0.08, 'BloodPressure_Diastole'}]"
+7,Gewicht,21.5615,364.3593,4.7003,16.8986,,,,,,,"[2.34095874e-03 9.20196616e-01 6.55355889e-03 6.02245723e-04
+ 3.22769773e-05 7.84254476e-05 1.81908948e-03 1.33337987e-06
+ 1.73353575e-06 1.92189232e-04 7.04299542e-05 5.69079682e-04
+ 1.45147841e-04 1.85615842e-03 2.19995036e-04 3.18645333e-03
+ 3.05532409e-03 5.92162563e-03 1.49178559e-03 2.62453489e-03
+ 3.49697853e-03 5.30625393e-04 2.30289826e-03 6.12066676e-03
+ 1.93453006e-03 7.05686293e-04 2.41422721e-03 2.11451753e-03
+ 2.94209083e-02]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.92, 'Gewicht_Echokardiographie'}]"
+8,Grösse,12.573,134.6263,0.7927,10.7076,,,,,,,"[9.28289456e-01 6.36902892e-03 5.43346715e-03 7.50932088e-04
+ 4.00137102e-04 2.04042157e-04 2.95579352e-04 2.99362705e-06
+ 3.61330533e-06 2.64746931e-04 2.10007475e-06 2.65264571e-05
+ 1.59458962e-05 3.74730000e-03 1.29839890e-05 3.39006872e-03
+ 5.03605984e-03 2.54605755e-03 3.63694250e-04 5.46609390e-04
+ 6.09557464e-03 2.67595375e-03 3.72097915e-03 6.60600616e-03
+ 4.33324835e-03 2.59763771e-03 8.69190947e-03 4.34431500e-03
+ 3.23303296e-03]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.93, 'Groesse_Echokardiographie'}]"
+9,Lymphozyten,5.1413,9.7501,5.2192,1.8964,,,,,,,"[2.01289606e-02 7.83278219e-02 5.93888395e-02 6.67363372e-03
+ 8.81118632e-03 7.23985318e-03 1.33508116e-02 1.85284784e-07
+ 6.87120403e-05 2.32479434e-03 1.69150310e-06 1.23061744e-04
+ 9.29699663e-05 1.67238371e-02 4.77493871e-03 1.78694876e-02
+ 2.46597189e-02 2.49565471e-02 5.18546198e-03 1.40660328e-02
+ 6.99648076e-02 8.32032205e-02 3.19940207e-02 3.90570367e-01
+ 1.54020329e-02 6.23533434e-03 5.50286294e-02 1.85998038e-02
+ 2.42332383e-02]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.08, 'Gewicht_Echokardiographie'}, {0.06, 'BMI'}, {0.07, 'Septum'}, {0.08, 'Hinterwand'}, {0.39, 'LVMMI'}, {0.06, 'HeartFrequency'}]"
+10,Thrombozyten,125.6558,15397.948,67.2901,122.5407,,,,,,,"[7.35533324e-02 6.43926134e-02 1.12544174e-01 1.35810711e-02
+ 7.18627397e-03 1.76601194e-03 3.43679766e-03 1.05128755e-04
+ 8.20921070e-06 4.91925586e-03 2.24316371e-05 8.79673728e-04
+ 5.00833835e-03 5.39021807e-02 1.24399639e-03 4.44226842e-02
+ 5.01970226e-02 5.78973817e-02 1.22431851e-02 1.45448256e-02
+ 2.97942324e-02 3.56979100e-02 3.97123943e-02 5.91423355e-02
+ 5.48256233e-02 1.68988497e-02 1.20830599e-01 6.33539521e-02
+ 5.78895159e-02]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.07, 'Groesse_Echokardiographie'}, {0.06, 'Gewicht_Echokardiographie'}, {0.11, 'BMI'}, {0.05, 'ESD_M_Mode'}, {'EDV', 0.05}, {'EF', 0.06}, {0.06, 'LVMMI'}, {0.05, 'rTh'}, {0.12, 'HeartFrequency'}, {0.06, 'BloodPressure_Systole'}, {0.06, 'BloodPressure_Diastole'}]"
+11,Leukocytes,13.5105,173.4595,18.3883,12.8389,,,,,,,"[0.01253418 0.12068159 0.10418272 0.00345888 0.0228863  0.01399382
+ 0.00185634 0.2458688  0.00973943 0.00364826 0.01961129 0.00343973
+ 0.02624161 0.05108477 0.01284666 0.01717052 0.07069827 0.06477382
+ 0.00179524 0.00100386 0.00757634 0.00351327 0.00996254 0.02424409
+ 0.01818033 0.00318044 0.10063485 0.01238652 0.01280552]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.12, 'Gewicht_Echokardiographie'}, {0.1, 'BMI'}, {0.25, 'Trikuspidalklappe'}, {0.05, 'ESD_M_Mode'}, {'EDV', 0.07}, {'EF', 0.06}, {0.1, 'HeartFrequency'}]"
+12,Hemoglobin,28.1412,735.3235,6.1992,26.1298,,,,,,,"[0.0652068  0.03400785 0.02351369 0.0349663  0.05840971 0.06922696
+ 0.01459751 0.12921916 0.02307619 0.00190415 0.09339751 0.00609785
+ 0.06508904 0.02269683 0.08052581 0.02497281 0.01847606 0.02036803
+ 0.00531214 0.0018335  0.01392454 0.00717125 0.02608906 0.02774815
+ 0.01971147 0.00920517 0.0561607  0.02134946 0.0257423 ]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.07, 'Groesse_Echokardiographie'}, {0.06, 'Mitralklappe'}, {0.07, 'Aortenklappe'}, {0.13, 'Trikuspidalklappe'}, {0.09, 'RechterVorhof'}, {'LinkerVorhof', 0.07}, {0.08, 'LinkerVentrikel'}, {0.06, 'HeartFrequency'}]"
+13,Monozyten,3.5709,19.7778,19.9919,5.5386,,,,,,,"[0.0192069  0.01358875 0.01912082 0.00396986 0.10781881 0.03127565
+ 0.00361978 0.15981816 0.05146205 0.00090849 0.12673113 0.06829481
+ 0.10103165 0.01491265 0.10526241 0.0216654  0.01365479 0.01202884
+ 0.00098401 0.00197657 0.00625729 0.00801362 0.00989935 0.01756611
+ 0.01547515 0.00411334 0.02890256 0.01204272 0.02039831]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.11, 'Mitralklappe'}, {0.16, 'Trikuspidalklappe'}, {0.05, 'Pulmonalklappe'}, {0.13, 'RechterVorhof'}, {0.07, 'RechterVentrikel'}, {'LinkerVorhof', 0.1}, {0.11, 'LinkerVentrikel'}]"
+14,hsCRP,71.4427,4762.6117,114.8363,66.6633,,,,,,,"[0.01249001 0.05779611 0.04270063 0.0089499  0.02445068 0.02859112
+ 0.11921783 0.07200353 0.0307091  0.00534944 0.07140692 0.00931962
+ 0.05322534 0.02604748 0.05487155 0.01362615 0.00862316 0.00938954
+ 0.00103984 0.14427845 0.00300658 0.00876371 0.01816812 0.00389615
+ 0.01480128 0.01664156 0.1251276  0.00307816 0.01243041]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.06, 'Gewicht_Echokardiographie'}, {0.12, 'Aorta'}, {0.07, 'Trikuspidalklappe'}, {0.07, 'RechterVorhof'}, {'LinkerVorhof', 0.05}, {0.05, 'LinkerVentrikel'}, {0.14, 'RegionaleWandbewegungen'}, {0.13, 'HeartFrequency'}]"
+15,Neutrophile,5.3548,26.3183,4.6792,4.9148,,,,,,,"[0.03007299 0.03103127 0.05409514 0.04275626 0.04952513 0.00842586
+ 0.00920151 0.06535516 0.01942999 0.00259958 0.06612145 0.0241733
+ 0.04489042 0.02887472 0.05091    0.02747678 0.03581799 0.04513507
+ 0.00397774 0.00281239 0.01219862 0.01271625 0.03413328 0.05550972
+ 0.03170529 0.01509115 0.14785711 0.02534226 0.02276357]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.05, 'BMI'}, {0.07, 'Trikuspidalklappe'}, {0.07, 'RechterVorhof'}, {0.05, 'LinkerVentrikel'}, {0.06, 'LVMMI'}, {0.15, 'HeartFrequency'}]"
+16,CK,5044.084,17540419.5927,22888.7737,3477.4241,,,,,,,"[4.34561132e-02 2.38857194e-02 1.92866167e-02 1.86949930e-03
+ 1.80319444e-02 1.74835613e-02 2.37041502e-02 2.02379835e-02
+ 8.39993388e-03 2.71913074e-05 1.41027457e-02 1.56014148e-02
+ 4.07663823e-02 2.89191558e-02 4.11682571e-02 3.13484324e-02
+ 3.28734583e-02 1.73617063e-02 1.22479426e-05 1.51414656e-04
+ 2.92272967e-02 2.78304047e-02 4.55539650e-02 5.61060198e-02
+ 1.88161223e-02 2.44214772e-03 1.09091953e-02 2.20497303e-02
+ 3.88377190e-01]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.06, 'LVMMI'}, {0.39, 'BloodPressure_Diastole'}]"
+17,Harnsäure,113.7065,15857.3261,55.1101,139.4584,,,,,,,"[3.00188518e-02 2.34388786e-01 1.38358742e-01 5.08485885e-03
+ 1.01769802e-03 2.41763129e-03 7.28600332e-03 8.06314855e-04
+ 6.57227988e-04 2.33878492e-03 1.74287294e-04 1.10753415e-04
+ 1.21169632e-04 2.36346168e-02 2.66218795e-04 1.71365010e-02
+ 7.03673279e-02 1.66736915e-01 6.60718104e-03 4.53720502e-03
+ 9.67552928e-03 2.43725419e-02 8.00903508e-02 3.79819735e-02
+ 3.60657402e-02 7.06237246e-03 4.41028351e-02 3.50034921e-02
+ 1.35780898e-02]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.23, 'Gewicht_Echokardiographie'}, {0.14, 'BMI'}, {'EDV', 0.07}, {'EF', 0.17}, {0.08, 'EDD'}]"
+18,Alk. Phosphatase,115.5528,10879.4052,113.4673,94.151,,,,,,,"[0.03603267 0.02070703 0.02233167 0.20504368 0.0360959  0.03255892
+ 0.0031374  0.02356213 0.01966928 0.00136174 0.02269023 0.04263799
+ 0.04908369 0.02137237 0.14438729 0.07220445 0.0325311  0.03291122
+ 0.02567542 0.00210005 0.01194921 0.00669681 0.01997028 0.01751997
+ 0.0197461  0.00513899 0.03440964 0.01872763 0.01974714]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.21, 'Echoqualitaet'}, {0.14, 'LinkerVentrikel'}, {'ESV', 0.07}]"
+19,Ferritin,5607.9744,13123184.1863,15155.2904,2340.0935,,,,,,,"[4.52171555e-03 1.47799018e-03 1.15440243e-02 6.22983982e-04
+ 1.06615393e-01 9.71130882e-02 2.55023486e-04 1.78349645e-01
+ 6.46488953e-02 1.00495452e-04 1.33895069e-01 7.08406688e-02
+ 1.19087671e-01 2.07407697e-03 1.21717939e-01 9.52443104e-03
+ 2.76284071e-03 2.22673949e-03 1.00687634e-04 1.04202438e-03
+ 1.44090102e-03 9.36754191e-04 8.01711361e-03 3.75813291e-03
+ 5.14703277e-03 3.89721662e-04 3.99561156e-02 1.92497258e-03
+ 9.90785433e-03]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.11, 'Mitralklappe'}, {0.1, 'Aortenklappe'}, {0.18, 'Trikuspidalklappe'}, {0.06, 'Pulmonalklappe'}, {0.13, 'RechterVorhof'}, {0.07, 'RechterVentrikel'}, {'LinkerVorhof', 0.12}, {0.12, 'LinkerVentrikel'}]"
+20,AST (GOT)Aspartat-Aminotransferase,1481.8786,1870533.8583,7635.3723,1262.272,,,,,,,"[2.91211410e-03 3.09528605e-02 1.65234977e-02 5.35339787e-05
+ 1.14386780e-03 1.44725754e-03 1.16698977e-07 1.17791643e-02
+ 1.19280490e-02 1.14718458e-06 2.13389160e-02 2.08198094e-03
+ 2.09449819e-02 1.89866297e-02 2.04410724e-02 8.39579974e-02
+ 7.02785361e-02 4.81043239e-02 7.89700457e-02 7.56987127e-02
+ 1.17639561e-02 1.21802929e-02 2.24088474e-02 1.46926414e-02
+ 2.27833799e-02 1.70481315e-05 2.49553502e-01 9.94128209e-02
+ 4.96427055e-02]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{'ESV', 0.08}, {'EDV', 0.07}, {0.08, 'Ebene'}, {0.08, 'RegionaleWandbewegungen'}, {0.25, 'HeartFrequency'}, {0.1, 'BloodPressure_Systole'}]"
+21,Troponin,1099.7016,699960.4706,3407.6678,636.5004,,,,,,,"[1.19723111e-03 1.97199816e-03 1.87476395e-03 9.92845797e-03
+ 1.03579724e-01 3.76530267e-02 4.90702514e-05 1.70899127e-01
+ 6.52821864e-02 6.64048326e-04 1.40854412e-01 8.42835003e-02
+ 1.22594089e-01 5.31242789e-03 1.30817999e-01 5.14723728e-03
+ 6.57573828e-03 4.36160983e-03 5.79706443e-05 7.50737020e-02
+ 1.52744535e-03 4.57141505e-04 4.51659658e-03 2.66020586e-03
+ 4.62913070e-03 2.83057503e-03 1.56553593e-03 4.85408575e-03
+ 8.78096293e-03]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.1, 'Mitralklappe'}, {0.17, 'Trikuspidalklappe'}, {0.07, 'Pulmonalklappe'}, {0.14, 'RechterVorhof'}, {0.08, 'RechterVentrikel'}, {'LinkerVorhof', 0.12}, {0.13, 'LinkerVentrikel'}, {0.08, 'RegionaleWandbewegungen'}]"
+22,ALT (GPT)Alanin-Aminotransferase,1077.1216,826646.7452,4332.9361,767.4591,,,,,,,"[0.01753828 0.00906944 0.02690931 0.01727489 0.00822882 0.01016372
+ 0.00282634 0.01893463 0.00093266 0.00028014 0.01086135 0.00229588
+ 0.00553768 0.00189462 0.00646085 0.00866832 0.10127056 0.00455736
+ 0.02281137 0.0351999  0.01215743 0.02111748 0.07628271 0.10444126
+ 0.02676231 0.00601938 0.21842708 0.1403336  0.08274263]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{'EDV', 0.1}, {0.08, 'EDD'}, {0.1, 'LVMMI'}, {0.22, 'HeartFrequency'}, {0.14, 'BloodPressure_Systole'}, {0.08, 'BloodPressure_Diastole'}]"
+23,Albumin,8.2239,64.5024,1.8122,7.8433,,,,,,,"[0.00969201 0.01212513 0.00827744 0.0022347  0.08533736 0.07848596
+ 0.00330985 0.13956075 0.02110942 0.0010923  0.12740708 0.06632584
+ 0.08627812 0.00773914 0.09350658 0.01106464 0.00952878 0.01104605
+ 0.02143665 0.00090653 0.00692576 0.00275276 0.0143021  0.02109057
+ 0.01131278 0.00136198 0.10693265 0.01979629 0.01906077]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.09, 'Mitralklappe'}, {0.08, 'Aortenklappe'}, {0.14, 'Trikuspidalklappe'}, {0.13, 'RechterVorhof'}, {0.07, 'RechterVentrikel'}, {'LinkerVorhof', 0.09}, {0.09, 'LinkerVentrikel'}, {0.11, 'HeartFrequency'}]"
+24,Harnstoff,4.8298,27.2433,4.4129,5.6407,,,,,,,"[5.82093659e-02 4.23436938e-02 6.79895015e-02 1.19775474e-02
+ 1.36941984e-02 7.61041548e-03 1.11564205e-02 8.92519806e-05
+ 4.52339162e-05 5.18338272e-03 2.81568026e-04 7.10454715e-03
+ 7.25589725e-03 4.29572067e-02 3.66285145e-02 4.78714783e-02
+ 6.51382731e-02 5.92658246e-02 7.74891831e-03 2.68466694e-02
+ 7.38193325e-02 1.52941902e-02 4.90568936e-02 6.57822497e-02
+ 4.37423110e-02 1.20999992e-02 4.96266294e-02 1.07849995e-01
+ 6.33304911e-02]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.06, 'Groesse_Echokardiographie'}, {0.07, 'BMI'}, {'EDV', 0.07}, {'EF', 0.06}, {0.07, 'Septum'}, {0.07, 'LVMMI'}, {0.11, 'BloodPressure_Systole'}, {0.06, 'BloodPressure_Diastole'}]"
+25,"Bilirubin, total",79.8879,6690.5476,179.4772,83.7492,,,,,,,"[8.86092050e-03 4.07995613e-02 2.72986982e-02 1.12387624e-03
+ 4.53534655e-02 1.01498217e-01 2.82320897e-04 6.35825153e-02
+ 9.06051630e-07 3.05765887e-04 6.64940195e-02 1.18022330e-02
+ 9.54391426e-02 2.52748098e-03 8.26439845e-02 1.19593880e-02
+ 7.28163265e-03 5.63246234e-03 2.43045468e-02 3.71856516e-02
+ 6.95960002e-02 1.75837981e-02 6.38874205e-03 2.05277997e-02
+ 1.10281582e-02 3.81266845e-04 3.61833781e-02 1.46784523e-01
+ 5.71495450e-02]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.1, 'Aortenklappe'}, {0.06, 'Trikuspidalklappe'}, {0.07, 'RechterVorhof'}, {'LinkerVorhof', 0.1}, {0.08, 'LinkerVentrikel'}, {0.07, 'Septum'}, {0.15, 'BloodPressure_Systole'}, {0.06, 'BloodPressure_Diastole'}]"
+26,Transferrin Saturation,21.1527,433.6786,14.3104,20.5023,,,,,,,"[0.04015296 0.04938922 0.10298902 0.00691706 0.08663371 0.0074915
+ 0.02389934 0.00011994 0.00228463 0.00596392 0.00026862 0.0001402
+ 0.00028468 0.03714635 0.03464545 0.04715031 0.06026256 0.04939782
+ 0.00161126 0.00242851 0.02216643 0.0096276  0.07638238 0.08844582
+ 0.05588996 0.01084641 0.10577538 0.02866617 0.04302279]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.1, 'BMI'}, {0.09, 'Mitralklappe'}, {'EDV', 0.06}, {0.08, 'EDD'}, {0.09, 'LVMMI'}, {0.06, 'rTh'}, {0.11, 'HeartFrequency'}]"
+27,Transferrin,7.4119,44.9185,1.6373,6.0603,,,,,,,"[4.45119478e-02 4.53063719e-02 1.13274401e-01 5.34267407e-03
+ 1.97910636e-03 9.57408497e-03 2.66038682e-02 4.20966292e-05
+ 1.20397450e-04 1.03700494e-02 5.19166721e-05 3.15302632e-03
+ 2.45720066e-05 3.91259053e-02 1.25456233e-02 1.62540409e-01
+ 7.55688121e-02 6.19839636e-02 3.85421949e-03 1.25035879e-02
+ 2.27347359e-02 2.31774461e-02 4.97088783e-02 6.63723173e-02
+ 4.74218746e-02 1.05276442e-02 7.68640490e-02 3.53094636e-02
+ 3.94065578e-02]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.11, 'BMI'}, {'ESV', 0.16}, {'EDV', 0.08}, {'EF', 0.06}, {0.07, 'LVMMI'}, {0.08, 'HeartFrequency'}]"
+28,D-Dimers,3.6977,9.5106,3.4494,2.572,,,,,,,"[3.24159940e-02 1.06720902e-02 1.20550172e-02 4.59512902e-05
+ 0.00000000e+00 3.19148936e-02 6.39870813e-02 4.72722860e-02
+ 1.06382979e-02 0.00000000e+00 3.18775331e-02 0.00000000e+00
+ 4.61079458e-02 3.41869370e-02 1.13728128e-02 4.49548088e-05
+ 1.13089819e-02 5.53088610e-02 1.19514013e-02 1.17315944e-02
+ 2.71008278e-02 1.29660772e-02 8.54827973e-02 1.06382979e-02
+ 8.12404642e-02 0.00000000e+00 4.27146276e-02 2.16715881e-02
+ 2.95292686e-01]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.06, 'Aorta'}, {'EF', 0.06}, {0.09, 'EDD'}, {0.08, 'rTh'}, {0.3, 'BloodPressure_Diastole'}]"
+29,Bicarbonat,3.2628,6.8558,0.2899,2.1012,,,,,,,"[7.82289782e-02 4.86491438e-02 7.91859207e-02 1.57936429e-05
+ 9.47714084e-03 1.09021338e-03 4.70756613e-02 1.79610863e-02
+ 3.47495645e-03 1.26423619e-02 1.57525794e-02 2.96427332e-04
+ 6.13403396e-03 7.93069256e-03 6.43722044e-03 2.13067682e-02
+ 1.64350220e-02 5.15157515e-02 1.34620081e-04 6.25812206e-03
+ 1.49862292e-02 3.25832662e-02 4.65252276e-02 6.41945020e-02
+ 2.23321255e-02 3.20390668e-02 3.33825463e-01 1.40615674e-02
+ 9.45005863e-03]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.08, 'Groesse_Echokardiographie'}, {0.08, 'BMI'}, {'EF', 0.05}, {0.06, 'LVMMI'}, {0.33, 'HeartFrequency'}]"
+30,Laktat,25.5647,457.2652,15.2989,17.8866,,,,,,,"[0.11948475 0.03706738 0.01256256 0.08521334 0.00115946 0.01460449
+ 0.         0.06172853 0.00921281 0.04938272 0.01234568 0.01285332
+ 0.04938272 0.01243987 0.03732342 0.08445889 0.04959834 0.
+ 0.01362155 0.0007155  0.02540124 0.02546206 0.02525663 0.01309012
+ 0.04983223 0.02517588 0.01653395 0.08335859 0.07273398]","['Groesse_Echokardiographie' 'Gewicht_Echokardiographie' 'BMI'
+ 'Echoqualitaet' 'Mitralklappe' 'Aortenklappe' 'Aorta' 'Trikuspidalklappe'
+ 'Pulmonalklappe' 'VenaCavaInferior' 'RechterVorhof' 'RechterVentrikel'
+ 'LinkerVorhof' 'ESD_M_Mode' 'LinkerVentrikel' 'ESV' 'EDV' 'EF' 'Ebene'
+ 'RegionaleWandbewegungen' 'Septum' 'Hinterwand' 'EDD' 'LVMMI' 'rTh'
+ 'LV_Fuellung' 'HeartFrequency' 'BloodPressure_Systole'
+ 'BloodPressure_Diastole']","[{0.12, 'Groesse_Echokardiographie'}, {0.09, 'Echoqualitaet'}, {0.06, 'Trikuspidalklappe'}, {'ESV', 0.08}, {0.08, 'BloodPressure_Systole'}, {0.07, 'BloodPressure_Diastole'}]"

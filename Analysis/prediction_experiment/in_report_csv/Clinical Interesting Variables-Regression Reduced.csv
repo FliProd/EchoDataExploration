@@ -1,0 +1,5 @@
+Variable,Model,MSE/STD,Important features
+HbA1c n.NGSP,LR,0.7948,"[{0.5, 'Gewicht_Echokardiographie'}, {'EDV', 0.29}, {0.16, 'LVMMI'}]"
+HbA1c n.NGSP,RF,0.8166,"[{0.08, 'Gewicht_Echokardiographie'}, {0.13, 'BMI'}, {0.09, 'ESD_M_Mode'}, {'ESV', 0.05}, {'EDV', 0.08}, {0.06, 'Septum'}, {0.05, 'EDD'}, {0.1, 'LVMMI'}, {0.09, ‘rTh'}]"
+Kalium,LR,0.3428,[]
+Kalium,RF,0.3439,"[{0.07, 'Groesse_Echokardiographie'}, {0.06, 'Gewicht_Echokardiographie'}, {0.09, 'BMI'}, {0.06, 'ESD_M_Mode'}, {'EDV', 0.06}, {'EF', 0.05}, {0.06, 'EDD'}, {0.07, 'LVMMI'}, {0.07, 'rTh'}, {0.09, 'HeartFrequency'}, {0.08, 'BloodPressure_Systole'}, {0.07, 'BloodPressure_Diastole'}]"
